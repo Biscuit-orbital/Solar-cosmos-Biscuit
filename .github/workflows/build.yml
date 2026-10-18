@@ -17,6 +17,9 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: 8.8
+      - name: Fix wrong Heightmap import
+        run: |
+          grep -rl 'net.minecraft.util.math.Heightmap' . --include=*.java | xargs -r sed -i 's/net\.minecraft\.util\.math\.Heightmap/net.minecraft.world.Heightmap/g'
       - name: Build
         run: |
           DIR=$(dirname "$(find . -name settings.gradle -not -path './.git/*' | head -n 1)")
