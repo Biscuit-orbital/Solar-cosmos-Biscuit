@@ -18,9 +18,15 @@ jobs:
         with:
           gradle-version: 8.8
       - name: Build
-        run: gradle build --no-daemon
+        run: |
+          DIR=$(dirname "$(find . -name settings.gradle -not -path './.git/*' | head -n 1)")
+          echo "Project folder: $DIR"
+          cd "$DIR"
+          gradle build --no-daemon
+          mkdir -p "$GITHUB_WORKSPACE/out"
+          cp build/libs/*.jar "$GITHUB_WORKSPACE/out/"
       - name: Upload jar
         uses: actions/upload-artifact@v4
         with:
           name: biscuit-orbital-jar
-          path: build/libs/*.jar
+          path: out/*.jar
