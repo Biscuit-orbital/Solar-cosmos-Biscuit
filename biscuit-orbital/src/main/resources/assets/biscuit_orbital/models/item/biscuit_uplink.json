@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "biscuit_orbital:item/biscuit_uplink"
+  }
+}

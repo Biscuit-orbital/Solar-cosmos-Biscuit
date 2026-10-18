@@ -1,0 +1,146 @@
+{
+  "uplink_open": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:uplink_open"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.uplink_open"
+  },
+  "uplink_lock": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:uplink_lock"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.uplink_lock"
+  },
+  "beep": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:beep"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.beep"
+  },
+  "railgun_charge": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:railgun_charge"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.railgun_charge"
+  },
+  "railgun_fire": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:railgun_fire"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.railgun_fire"
+  },
+  "siren": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:siren"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.siren"
+  },
+  "bomb_whistle": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:bomb_whistle"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.bomb_whistle"
+  },
+  "bomb_boom": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:bomb_boom"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.bomb_boom"
+  },
+  "meteor_whoosh": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:meteor_whoosh"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.meteor_whoosh"
+  },
+  "meteor_impact": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:meteor_impact"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.meteor_impact"
+  },
+  "storm_charge": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:storm_charge"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.storm_charge"
+  },
+  "thunder_crack": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:thunder_crack"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.thunder_crack"
+  },
+  "singularity_hum": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:singularity_hum"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.singularity_hum"
+  },
+  "singularity_collapse": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:singularity_collapse"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.singularity_collapse"
+  },
+  "cryo_incoming": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:cryo_incoming"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.cryo_incoming"
+  },
+  "ice_shatter": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:ice_shatter"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.ice_shatter"
+  },
+  "fire_roar": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:fire_roar"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.fire_roar"
+  },
+  "nuke_boom": {
+    "sounds": [
+      {
+        "name": "biscuit_orbital:nuke_boom"
+      }
+    ],
+    "subtitle": "subtitles.biscuit_orbital.nuke_boom"
+  }
+}

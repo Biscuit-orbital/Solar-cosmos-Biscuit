@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "biscuit_orbital",
+  "version": "${version}",
+  "name": "Biscuit Orbital Command",
+  "description": "The Biscuit Uplink walkie-talkie plus 8 original orbital strikes: Biscuit Railgun, Crumb Carpet, Choco-Chip Meteors, Thunder Wafer, Black Hole Biscuit, Frostbite Cookie, Toasted Tornado and the Mega Biscuit nuke.",
+  "authors": [
+    "Biscuit"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/biscuit_orbital/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.biscuit.orbital.BiscuitOrbital"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
