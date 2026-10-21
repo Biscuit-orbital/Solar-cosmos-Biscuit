@@ -51,7 +51,7 @@ public final class Cinematic {
 			origin = mc.player.getEyePosition();
 			yaw0 = mc.player.getYRot();
 			pitch0 = mc.player.getXRot();
-			cam = new Marker(EntityType.MARKER, mc.level);
+			cam = new Marker(net.minecraft.core.registries.BuiltInRegistries.ENTITY_TYPE.getValue(net.minecraft.resources.Identifier.withDefaultNamespace("marker")), mc.level);
 			place(0f);
 			mc.setCameraEntity(cam);
 		}
