@@ -1,0 +1,8 @@
+{
+  "lock_beep": { "sounds": ["biscuit_orbital:lock_beep"] },
+  "riser":     { "sounds": ["biscuit_orbital:riser"] },
+  "charge":    { "sounds": ["biscuit_orbital:charge"] },
+  "fire":      { "sounds": ["biscuit_orbital:fire"] },
+  "impact":    { "sounds": ["biscuit_orbital:impact"] },
+  "rumble":    { "sounds": ["biscuit_orbital:rumble"] }
+}
