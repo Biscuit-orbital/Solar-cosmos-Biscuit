@@ -22,7 +22,7 @@ public class BiscuitOrbitalClient implements ClientModInitializer {
 
 		KeyMapping.Category category = KeyMapping.Category.register(BiscuitOrbital.id("main"));
 		openMenuKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
-				"key.biscuit_orbital.open_menu", InputConstants.Type.KEYSYM, InputConstants.KEY_H, category));
+				   "key.biscuit_orbital.open_menu", InputConstants.KEY_H, category));
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			while (openMenuKey.consumeClick()) {
