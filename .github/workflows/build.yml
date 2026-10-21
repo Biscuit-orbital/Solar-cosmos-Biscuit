@@ -16,8 +16,15 @@ jobs:
         with:
           gradle-version: current
       - name: Build the mod
-        run: gradle build --no-daemon --stacktrace
+        run: |
+          echo "=== files in repo ==="
+          find . -maxdepth 3 -not -path './.git/*' | head -60
+          FILE=$(find . -name settings.gradle -not -path './.git/*' | head -1)
+          if [ -z "$FILE" ]; then echo "ERROR: settings.gradle not found - files were not uploaded"; exit 1; fi
+          cd "$(dirname "$FILE")"
+          echo "Building in: $(pwd)"
+          gradle build --no-daemon --stacktrace
       - uses: actions/upload-artifact@v4
         with:
           name: biscuit-orbital-jar
-          path: build/libs/*.jar
+          path: '**/build/libs/*.jar'
